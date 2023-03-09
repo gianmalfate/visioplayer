@@ -20,7 +20,7 @@ PS:. Inclusive os retornos de sucesso status (200s) poderiam ser padronizados e 
 
 *Performance*
 
-- Problema: No arquivo “requestLoger,ts”, o request/tipo “AuditingRequest” não possui as propriedades “body, query, params, mehod, originalUrl”.
+- Problema: No arquivo “requestLoger.ts”, o request/tipo “AuditingRequest” não possui as propriedades “body, query, params, mehod, originalUrl”.
 
 - Solução: Averiguar a interface e determinar as propriedades para o tipo (“AuditingRequest”).
 
@@ -37,6 +37,8 @@ PS:. Inclusive os retornos de sucesso status (200s) poderiam ser padronizados e 
 - Solução: O ideal seria criar uma nova pasta “app” por exemplo e adicionar tudo aquilo que será bastante analisado e alterado durante a criação e manutenção da
 aplicação (logs; mongo {_ mocks _, Mongo.ts, MongoEvent.ts}; prometheus e routes), mantendo essa pasta na “src” juntamente com outras pastas como: config, errors,
 utils (com apenas fields.ts, success.ts, validator.ts) e os arquivos app.ts e index.tx.
+
+![Screenshot (57)](https://user-images.githubusercontent.com/90017824/224119038-fcc0c9a6-0724-4f47-91f7-9ea718a68834.png)
 
 
 
