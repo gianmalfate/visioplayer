@@ -40,6 +40,11 @@ utils (com apenas fields.ts, success.ts, validator.ts) e os arquivos app.ts e in
 
 ![Screenshot (57)](https://user-images.githubusercontent.com/90017824/224119038-fcc0c9a6-0724-4f47-91f7-9ea718a68834.png)
 
+- Problema: A disposição das informações no arquivo “plataform.route.ts” se encontra um pouco despadronizada.
+
+- Solução: Seria interessante rearranjar algumas funções para seguirem um padrão de exposição, invertendo por exemplo de posição as funções “handleDeleteCameraDiaId”
+e “handleDeleteCameraDia”.
+
 
 
 *Tratamento de erros*
